@@ -12,8 +12,9 @@ T(n), for any integer n
 * = n/2 if n is even
 
 S(n), for any *odd* integer n
-* = (3n+1)/2^v
-where v=v_2(3n+1) is the largest integer such that 2^v is a divisor of 3n+1. It is also known as the 2-adic valuation of 3n+1. 
+* = (3n+1)/2<sup>v</sup>
+
+  where v=v<sub>2</sub>(3n+1) is the largest integer such that 2<sup>v</sup> is a divisor of 3n+1. It is also known as the 2-adic valuation of 3n+1. 
 
 To start out, here is some basic Python code for evaluating the Collatz function. I've written the function in a way that we can vary the parameters, so rather than "3n+1" as a rule, we allow for "Kn+d". Initially, however, we will stick with K=3 and d=1. The following code generates the trajectory of a starting n, and outputs all odd numbers until we reach 1, also tracking the number of divisions by 2 that follow each odd step.
 
