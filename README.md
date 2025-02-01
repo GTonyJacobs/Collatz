@@ -5,11 +5,13 @@ The Collatz function is expressed in various ways. I will use the following nota
 
 For any integer n,
 
-$$C(n) =
+$$
+C(n) =
 \begin{cases} 
     3n+1, & \text{if } n \text{ is odd} \\ 
     \frac{n}{2}, & \text{if } n \text{ is even} 
-\end{cases}$$
+\end{cases}
+$$
 
 For any integer n,
 
@@ -22,6 +24,7 @@ T(n) =
 $$
 
 For any *odd* integer n
+
 $$
 S(n) = \frac{3n+1}{2^v}
 $$
