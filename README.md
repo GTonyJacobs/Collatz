@@ -12,6 +12,7 @@ $$C(n) =
 \end{cases}$$
 
 For any integer n,
+
 $$
 T(n) =
 \begin{cases} 
