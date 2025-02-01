@@ -1,4 +1,4 @@
-# Collatz
+# The Collatz conjecture
 I have been interested in the Collatz conjecture for many years, and finally decided to collect some of my work into a repository here for easy sharing. This is a work-in-progress, and I hope to continue adding content.
 
 The Collatz function is expressed in various ways. I will use the following notations for different versions of it:
