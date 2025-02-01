@@ -4,13 +4,12 @@ I have been interested in the Collatz conjecture for many years, and finally dec
 The Collatz function is expressed in various ways. I will use the following notations for different versions of it:
 
 For any integer n,
-$$
-C(n) =
+
+$$C(n) =
 \begin{cases} 
     3n+1, & \text{if } n \text{ is odd} \\ 
     \frac{n}{2}, & \text{if } n \text{ is even} 
-\end{cases}
-$$
+\end{cases}$$
 
 For any integer n,
 $$
