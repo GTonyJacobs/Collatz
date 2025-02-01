@@ -14,8 +14,16 @@ T(n), for any integer n
 S(n), for any *odd* integer n
 * = (3n+1)/2<sup>v</sup>
 
-  where v=v<sub>2</sub>(3n+1) is the largest integer such that 2<sup>v</sup> is a divisor of 3n+1. It is also known as the 2-adic valuation of 3n+1. 
+  where v=v<sub>2</sub>(3n+1) is the largest integer such that 2<sup>v</sup> is a divisor of 3n+1. The function v<sub>2</sub> is also known as the 2-adic valuation. 
+
+The Collatz conjecture states that for any positive integer as a starting value, iterating C(n) will eventually produce the value 1. Equivalently, iterating T(n) from any positive integer starting value will eventually lead to 1, or iterating S(n) on any odd positive integer starting value will eventually lead to 1.
+
+"C" stands for Collatz, after Lothar Collatz, the originator of the conjecture. "T" stands for Terras, after Riho Terras, who published an important paper on the conjecture in 1976, in which he used this "shortcut" version of the function. "S" stands for Syracuse. The problem was studied extensively at Syracuse University in the 1950s, and this version of the function is sometimes called the Syracuse Function. In the initial programs listed below, we use the Syracuse function, and we call it, by abuse of notation, the Collatz function. Such is life.
 
 To start out, here is some basic Python code for evaluating the Collatz function. I've written the function in a way that we can vary the parameters, so rather than "3n+1" as a rule, we allow for "Kn+d". Initially, however, we will stick with K=3 and d=1. The following code generates the trajectory of a starting n, and outputs all odd numbers until we reach 1, also tracking the number of divisions by 2 that follow each odd step.
 
-[Basic trajectory generator](/scripts/Basic_trajectory_generator.py)
+* [Basic trajectory generator](/scripts/Basic_trajectory_generator.py)
+
+Now, we will sometimes wish to look at the statistics of many trajectories, so it is useful to define a CollatzTrajectory class, which stores useful parameters of a trajectory without having to remember every single number that's in it. Here is some code that implements such a class, along with a trivial call of it for illustration.
+
+* [Trajectory class](/scripts/Trajectory_class)
