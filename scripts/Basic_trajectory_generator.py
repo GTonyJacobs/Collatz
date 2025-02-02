@@ -1,9 +1,7 @@
-def collatzStep(numer,multiplier,denom):
+def collatz_step(numer,multiplier,denom):
     numer = multiplier * numer + denom
-    v2 = 0
-    while numer % 2 == 0:
-        numer //= 2
-        v2 += 1
+    v2 = (numer & -numer).bit_length() - 1
+    numer >>= v2
     return numer,v2
     
 def collatzTrajectory(seed):
