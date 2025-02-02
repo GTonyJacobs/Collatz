@@ -4,7 +4,7 @@ def collatz_step(numer,multiplier,denom):
     numer >>= v2
     return numer,v2
 
-class CollatzTrajectory:
+class Collatz_Trajectory:
     def __init__(self, seed):
         self.seed = seed
         self.odd_steps = 0
@@ -41,5 +41,5 @@ if __name__ == "__main__":
     ## Enter starting value here
     seed=31
 
-    print(CollatzTrajectory(seed))
+    print(Collatz_Trajectory(seed))
 
