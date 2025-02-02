@@ -19,7 +19,7 @@ class CollatzTrajectory:
         """Compute trajectory statistics without storing full trajectory."""
         n = self.seed
         while n > 1:
-            n, v2 = collatzStep(n, 3, 1)  # Apply the step transformation
+            n, v2 = collatz_step(n, 3, 1)  # Apply the step transformation
             self.odd_steps += 1
             self.even_steps += v2
             if n > self.traj_max:
