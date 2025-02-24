@@ -35,13 +35,13 @@ To distinguish which kind of trajectory we're talking about, we use the followin
 Of course, the Collatz conjecture is equivalent to the claim that iterating $$T(n)$$ for any positive integer $$n$$ will eventually produce the value $$1$$.
 
 ## The Syracuse Map
-For an even shorter shortcut, we can observe that each odd step is followed by *some number* of even steps, after which we obtain a new odd number. Thus, we can consider a map purely from one odd number to the next, where each step includes performing the $$3n+1$$ transformation, and then following it with as many divisions by $$2$$ as are needed to get another odd number. Another early researcher, Herbert Möller, talked about the **Syracuse map**, calling it $$S$$ and noting that it had been discussed at Syracuse University.
+For an even shorter shortcut, we can observe that each odd step is followed by *some number* of even steps, after which we obtain a new odd number. Thus, we can consider a map purely from one odd number to the next, where each step includes performing the $$3n+1$$ transformation, and then following it with as many divisions by $$2$$ as are needed to obtain another odd number. Another early researcher, Herbert Möller, talked about the **Syracuse map**, calling it $$S$$ and noting that it had been discussed at Syracuse University.
 
 $$
 S(n) = \frac{3n+1}{2^v}
 $$
 
-where $$v$$ is the unique exponent for which the result is an odd number. Möller used the letter 'a' instead of 'v', but we use 'v' here because formally, it represents the value $$v_2(3n+1)$$, i.e., the 2-adic valuation of $$3n+1$$.
+Here, $$v$$ is the unique exponent for which the result is an odd number. Möller used the letter 'a' instead of 'v', but we use 'v' here because formally, it represents the value $$v_2(3n+1)$$, i.e., the 2-adic valuation of $$3n+1$$.
 
 Using the Syracuse map abbreviates an odd number's trajectory without changing its ultimate fate. Another way to state the Collatz conjecture is that, for every *odd* positive n, iterating $$S(n)$$ will eventually produce $$1$$. Comparing all three maps for the same number:
 
