@@ -13,7 +13,7 @@ A good first observation is that, when $$n$$ is odd, the value of $$3n+1$$ is al
 * 9 → 28 → 14 → 7 (odd, even, even)
 * 7 → 22 → 11 → 34 (odd, even odd)
 
-Thus, we can tighten things up a bit by rolling together an odd step and the even step that immediately follows it. The first writer to publish work on the Collatz Conjecture, Riho Terras, did this, so we call this reformulation the **Terras map**, and we denote it T(n):
+Thus, we can tighten things up a bit by rolling together an odd step and the even step that immediately follows it. The first writer to publish work on the Collatz Conjecture, Riho Terras, did this, so we call this reformulation the **Terras map**, and we denote it $$T(n)$$:
 
 $$
 T(n) = \begin{cases}
@@ -41,16 +41,16 @@ $$
 S(n) = \frac{3n+1}{2^v}
 $$
 
-Here, $$v$$ is the unique exponent for which the result is an odd number. Möller used the letter 'a' instead of 'v', but we use 'v' here because formally, it represents the value $$v_2(3n+1)$$, i.e., the 2-adic valuation of $$3n+1$$.
+Here, $$v$$ is the unique exponent for which the result is an odd number. Möller used the letter $$a$$ instead of $$v$$, but we use $$v$$ here because formally, it represents the value $$v_2(3n+1)$$, i.e., the 2-adic valuation of $$3n+1$$.
 
-Using the Syracuse map abbreviates an odd number's trajectory without changing its ultimate fate. Another way to state the Collatz conjecture is that, for every *odd* positive n, iterating $$S(n)$$ will eventually produce $$1$$. Comparing all three maps for the same number:
+Using the Syracuse map abbreviates an odd number's trajectory without changing its ultimate fate. Another way to state the Collatz conjecture is that, for every *odd* positive $$n$$, iterating $$S(n)$$ will eventually produce $$1$$. Comparing all three maps for the same number:
 
 * C: 11 → 34 → 17 → 52 → 26 → 13 → 40 → 20 → 10 → 5 → 16 → 8 → 4 → 2 → 1 → 4 → 2 → 1
 * T: 11 → 17 → 26 → 13 → 20 → 10 → 5 → 8 → 4 → 2 → 1 → 2 → 1
 * S: 11 → 17 → 13 → 5 → 1 → 1
   [v] = [1, 2, 3, 4, 2]
 
-The list of $$v$$ values under the Syracuse trajectory, which can be omitted when it's not needed, tells us the number of divisions by 2 occurring between each pair of odd numbers.
+The list of $$v$$ values under the Syracuse trajectory, which can be omitted when it's not needed, tells us the number of divisions by $$2$$ occurring between each pair of odd numbers.
 
 ## Code
 * Trajectory Finders
