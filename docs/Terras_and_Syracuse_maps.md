@@ -12,7 +12,7 @@ $$
 A good first observation is that, when $$n$$ is odd, the value of $$3n+1$$ is always even, so an "odd step" is always followed by an "even step". After that, the trajectory could move on to another even step, or go back to an odd step, depending on the result of the first even step:
 
 * 9 → 28 → 14 → 7 (odd, even, even)
-* 7 → 22 → 11 → 34 (odd, even odd)
+* 7 → 22 → 11 → 34 (odd, even, odd)
 
 Thus, we can tighten things up a bit by rolling together an odd step and the even step that immediately follows it. The first writer to publish work on the Collatz Conjecture, Riho Terras, did this, so we call this reformulation the **Terras map**, and we denote it $$T(n)$$:
 
