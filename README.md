@@ -16,4 +16,4 @@ The **Collatz Conjecture** is the claim that this always happens, that we always
 
 Why not try it yourself? Here's a program that will let you input a starting number, and you can see how its "trajectory" – the sequence of numbers that we generate from it – develops! Just click the "Open in Colab" button below:
 
-[![Trajectory Finder](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GTonyJacobs/Collatz/blob/main/scripts/intro_trajectory_finder.ipynb)
+Click here to open Trajectory Finder in Colab: [![Trajectory Finder](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GTonyJacobs/Collatz/blob/main/scripts/intro_trajectory_finder.ipynb)
