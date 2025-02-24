@@ -1,10 +1,12 @@
 # The Collatz conjecture
-For many years, since I was about 13 years old, I have explored the world of the Collatz conjecture. This page is here to invite you into this exploration, and to show you some of the steps that I've taken.
+For many years, since I was about 13 years old, I have explored the world of the Collatz conjecture. This site is here to invite you into this exploration, and to show you both the steps that I've taken, and the history I've learned about what others have done.
 
 It all starts with a game that we can play with whole numbers:
 
 * If $n$ is odd, then $n$ → $3n+1$
 * If $n$ is even, then $n$ → $\frac{n}{2}$
+
+We will refer to this game, or rule, or function, as the **Collatz Map**.
 
 Example: Let's start with $n=7$. Then we have:
 
@@ -17,4 +19,6 @@ The **Collatz Conjecture** is the claim that this always happens, that we always
 Why not try it yourself? Here's a program that will let you input a starting number, and you can see how its "trajectory" – the sequence of numbers that we generate from it – develops! Just click the "Open in Colab" button below:
 
 * Click here to open Trajectory Finder in Colab: [![Trajectory Finder](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GTonyJacobs/Collatz/blob/main/scripts/intro_trajectory_finder.ipynb)
-* Or return to the [Main Menu](../README.md)
+
+&nbsp;
+* [Return to Main Menu](../README.md)
