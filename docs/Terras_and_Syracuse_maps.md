@@ -55,7 +55,6 @@ The list of $$v$$ values under the Syracuse trajectory, which can be omitted whe
 
 ## Code
 * Trajectory Finders
-  * Collatz Trajectory Finder: <a href="https://colab.research.google.com/github/GTonyJacobs/Collatz/blob/main/scripts/intro_trajectory_finder.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Collatz Trajectory Finder">
   * Collatz Trajectory Finder: [![Collatz Trajectory Finder](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GTonyJacobs/Collatz/blob/main/scripts/intro_trajectory_finder.ipynb)
   * Terras Trajectory Finder: [![Terras Trajectory Finder](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GTonyJacobs/Collatz/blob/main/scripts/Terras_trajectory_finder.ipynb)
   * Syracuse Trajectory Finder: [![Syracuse Trajectory Finder](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GTonyJacobs/Collatz/blob/main/scripts/Syracuse_trajectory_finder.ipynb)
