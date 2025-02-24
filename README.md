@@ -8,7 +8,7 @@ Note: Links with the Open in Colab badge (![Sample badge](https://colab.research
 
 ### The trajectory of a number:
 * Collatz Trajectory Finder: [![Collatz Trajectory Finder](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GTonyJacobs/Collatz/blob/main/scripts/intro_trajectory_finder.ipynb)
-* Collatz Shortcuts: [Terras and Syracuse Trajectories](docs/Terras_and_Syracuse_maps.md)
+* Collatz Shortcuts: [Terras and Syracuse Maps](docs/Terras_and_Syracuse_maps.md)
   * Terras Trajectory Finder: [![Terras Trajectory Finder](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GTonyJacobs/Collatz/blob/main/scripts/Terras_trajectory_finder.ipynb)
   * Syracuse Trajectory Finder: [![Syracuse Trajectory Finder](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GTonyJacobs/Collatz/blob/main/scripts/Syracuse_trajectory_finder.ipynb)
 * Visualizations
