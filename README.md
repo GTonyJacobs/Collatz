@@ -16,4 +16,4 @@ Note: Links with the "Open in Colab" badge (![Sample badge](https://colab.resear
   * Terras Trajectory Length Scatterplot: [![Terras Trajectory Length Scatterplot](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GTonyJacobs/Collatz/blob/main/scripts/Terras_trajectory_length_scatterplot.ipynb)
   * Syracuse Trajectory Length Scatterplot: [![Syracuse Trajectory Length Scatterplot](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GTonyJacobs/Collatz/blob/main/scripts/Syracuse_trajectory_length_scatterplot.ipynb)
 * Trajectory Statistics
-  * [Overview](docs/Trajectory_Statistics) 
+  * [Overview](docs/Trajectory_Statistics.md) 
