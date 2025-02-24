@@ -55,12 +55,12 @@ The list of $$v$$ values under the Syracuse trajectory, which can be omitted whe
 
 ## Code
 * Trajectory Finders
-  * Collatz Trajectory Finder: [![Collatz Trajectory Finder](https://colab.research.google.com/assets/colab-badge.svg)](../scripts/intro_trajectory_finder.ipynb)
-  * Terras Trajectory Finder: [![Terras Trajectory Finder](https://colab.research.google.com/assets/colab-badge.svg)](../scripts/Terras_trajectory_finder.ipynb)
-  * Syracuse Trajectory Finder: [![Syracuse Trajectory Finder](https://colab.research.google.com/assets/colab-badge.svg)](../scripts/Syracuse_trajectory_finder.ipynb)
+  * Collatz Trajectory Finder: [![Collatz Trajectory Finder](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GTonyJacobs/Collatz/blob/main/scripts/intro_trajectory_finder.ipynb)
+  * Terras Trajectory Finder: [![Terras Trajectory Finder](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GTonyJacobs/Collatz/blob/main/scripts/Terras_trajectory_finder.ipynb)
+  * Syracuse Trajectory Finder: [![Syracuse Trajectory Finder](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GTonyJacobs/Collatz/blob/main/scripts/Syracuse_trajectory_finder.ipynb)
 * Trajectory Length Scatterplots
-  * Collatz Trajectory Length Scatterplot: [![Collatz Trajectory Length Scatterplot](https://colab.research.google.com/assets/colab-badge.svg)](../scripts/Collatz_trajectory_length_scatterplot)
-  * Terras Trajectory Length Scatterplot: [![Terras Trajectory Length Scatterplot](https://colab.research.google.com/assets/colab-badge.svg)](../scripts/Terras_trajectory_length_scatterplot)
-  * Syracuse Trajectory Length Scatterplot: [![Syracuse Trajectory Length Scatterplot](https://colab.research.google.com/assets/colab-badge.svg)](../scripts/Syracuse_trajectory_length_scatterplot)
+  * Collatz Trajectory Length Scatterplot: [![Collatz Trajectory Length Scatterplot](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GTonyJacobs/Collatz/blob/main/scripts/Collatz_trajectory_length_scatterplot)
+  * Terras Trajectory Length Scatterplot: [![Terras Trajectory Length Scatterplot](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GTonyJacobs/Collatz/blob/main/scripts/Terras_trajectory_length_scatterplot)
+  * Syracuse Trajectory Length Scatterplot: [![Syracuse Trajectory Length Scatterplot](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GTonyJacobs/Collatz/blob/main/scripts/Syracuse_trajectory_length_scatterplot)
  
 [Rerturn to Main Menu](../README.md)
