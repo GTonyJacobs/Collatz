@@ -2,7 +2,7 @@
 
 This repository is an educational and research experience, exploring many sides of the famous Collatz Conjecture. If you're new to the world of Collatz, I recommend starting with our:
 
-[Introduction](Intro.md)
+[Introduction](/docs/Intro.md)
 
 Links with the Open in Colab badge (![Sample badge](https://colab.research.google.com/assets/colab-badge.svg)) will open as interactive Python Notebooks
 
