@@ -1,4 +1,4 @@
-Our original definition of the Collatz function, in the [Introduction](Intro.md), can be formalized this way:
+Our original definition of the **Collatz map**, in the [Introduction](Intro.md), can be formalized this way:
 
 $$
 C(n) = \begin{cases}
@@ -6,3 +6,41 @@ C(n) = \begin{cases}
 \frac{n}{2} & \text{if }n\equiv 0\pmod{2}
 \end{cases}
 $$
+
+## The Terras Map
+A good first observation is that, when $$n$$ is odd, the value of $$3n+1$$ is always even, so an "odd step" is always followed by an "even step". After that, the trajectory could move on to another even step, or go back to an odd step, depending on the result of the first even step:
+
+* 9 → 28 → 14 → 7 (odd, even, even)
+* 7 → 22 → 11 → 34 (odd, even odd)
+
+Thus, we can tighten things up a bit by rolling together an odd step and the even step that immediately follows it. The first writer to publish work on the Collatz Conjecture, Riho Terras, did this, so we call this reformulation the **Terras map**, and we denote it T(n):
+
+$$
+T(n) = \begin{cases}
+\frac{3n+1}{2} & \text{if }n\equiv 1\pmod{2} \\
+\frac{n}{2} & \text{if }n\equiv 0\pmod{2}
+\end{cases}
+$$
+
+The above trajectory fragments, under the Terras map, turn into:
+
+* 9 → 14 → 7
+* 7 → 11 → 17
+
+To distinguish which kind of trajectory we're talking about, we use the following notation:
+
+* C: 11 → 34 → 17 → 52 → 26 → 13 → 40 → 20 → 10 → 5 → 16 → 8 → 4 → 2 → 1 → 4 → 2 → 1
+* T: 11 → 17 → 26 → 13 → 20 → 10 → 5 → 8 → 4 → 2 → 1 → 2 → 1
+
+Of course, the Collatz conjecture is equivalent to the claim that iterating $$T(n)$$ for any positive integer $$n$$ will eventually produce the value $$1$$.
+
+## The Syracuse Map
+For an even shorter shortcut, we can observe that each odd step is followed by *some number* of even steps, after which we obtain a new odd number. Thus, we can consider a map purely from one odd number to the next, where each step includes performing the $$3n+1$$ transformation, and then following it with as many divisions by $$2$$ as are needed to get another odd number. Another early researcher, Herbert Möller, formulated the function this way, and called the map $$S$$, noting that it had been discussed at Syracuse University.
+
+$$
+S(n) = \frac{3n+1}{2^v}
+$$
+
+where $$v$$ is the unique exponent for which the result is an odd number. Möller used the letter 'a' instead of 'v', but we use 'v' here because formally, it represents the value $$v_2(3n+1)$$, i.e., the 2-adic valuation of $$3n+1$$.
+
+Using the Syracuse map further abbreviates a number's trajectory without changing its ultimate fate. Another way to state the same conjecture is that, for every *odd* positive n, iterating $$S(n)$$ will eventually produce $$1$$.
