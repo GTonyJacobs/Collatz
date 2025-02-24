@@ -35,7 +35,7 @@ To distinguish which kind of trajectory we're talking about, we use the followin
 Of course, the Collatz conjecture is equivalent to the claim that iterating $$T(n)$$ for any positive integer $$n$$ will eventually produce the value $$1$$.
 
 ## The Syracuse Map
-For an even shorter shortcut, we can observe that each odd step is followed by *some number* of even steps, after which we obtain a new odd number. Thus, we can consider a map purely from one odd number to the next, where each step includes performing the $$3n+1$$ transformation, and then following it with as many divisions by $$2$$ as are needed to get another odd number. Another early researcher, Herbert Möller, formulated the function this way, and called the map $$S$$, noting that it had been discussed at Syracuse University.
+For an even shorter shortcut, we can observe that each odd step is followed by *some number* of even steps, after which we obtain a new odd number. Thus, we can consider a map purely from one odd number to the next, where each step includes performing the $$3n+1$$ transformation, and then following it with as many divisions by $$2$$ as are needed to get another odd number. Another early researcher, Herbert Möller, talked about the **Syracuse map**, calling it $$S$$ and noting that it had been discussed at Syracuse University.
 
 $$
 S(n) = \frac{3n+1}{2^v}
@@ -43,4 +43,23 @@ $$
 
 where $$v$$ is the unique exponent for which the result is an odd number. Möller used the letter 'a' instead of 'v', but we use 'v' here because formally, it represents the value $$v_2(3n+1)$$, i.e., the 2-adic valuation of $$3n+1$$.
 
-Using the Syracuse map further abbreviates a number's trajectory without changing its ultimate fate. Another way to state the same conjecture is that, for every *odd* positive n, iterating $$S(n)$$ will eventually produce $$1$$.
+Using the Syracuse map abbreviates an odd number's trajectory without changing its ultimate fate. Another way to state the Collatz conjecture is that, for every *odd* positive n, iterating $$S(n)$$ will eventually produce $$1$$. Comparing all three maps for the same number:
+
+* C: 11 → 34 → 17 → 52 → 26 → 13 → 40 → 20 → 10 → 5 → 16 → 8 → 4 → 2 → 1 → 4 → 2 → 1
+* T: 11 → 17 → 26 → 13 → 20 → 10 → 5 → 8 → 4 → 2 → 1 → 2 → 1
+* S: 11 → 17 → 13 → 5 → 1 → 1
+  [v] = [1, 2, 3, 4, 2]
+
+The list of $$v$$ values under the Syracuse trajectory, which can be omitted when it's not needed, tells us the number of divisions by 2 occurring between each pair of odd numbers.
+
+## Code
+* Trajectory Finders
+  * Collatz Trajectory Finder: [![Collatz Trajectory Finder](https://colab.research.google.com/assets/colab-badge.svg)](../scripts/intro_trajectory_finder.ipynb)
+  * Terras Trajectory Finder: [![Terras Trajectory Finder](https://colab.research.google.com/assets/colab-badge.svg)](../scripts/Terras_trajectory_finder.ipynb)
+  * Syracuse Trajectory Finder: [![Syracuse Trajectory Finder](https://colab.research.google.com/assets/colab-badge.svg)](../scripts/Syracuse_trajectory_finder.ipynb)
+* Trajectory Length Scatterplots
+  * Collatz Trajectory Length Scatterplot: [![Collatz Trajectory Length Scatterplot](https://colab.research.google.com/assets/colab-badge.svg)](../scripts/Collatz_trajectory_length_scatterplot)
+  * Terras Trajectory Length Scatterplot: [![Terras Trajectory Length Scatterplot](https://colab.research.google.com/assets/colab-badge.svg)](../scripts/Terras_trajectory_length_scatterplot)
+  * Syracuse Trajectory Length Scatterplot: [![Syracuse Trajectory Length Scatterplot](https://colab.research.google.com/assets/colab-badge.svg)](../scripts/Syracuse_trajectory_length_scatterplot)
+ 
+[Rerturn to Main Menu](../README.md)
