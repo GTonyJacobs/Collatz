@@ -9,7 +9,9 @@ Links with the Open in Colab badge (![Sample badge](https://colab.research.googl
 ### The trajectory of a number:
 * Collatz Trajectories: [![Collatz Trajectory Finder](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GTonyJacobs/Collatz/blob/main/scripts/intro_trajectory_finder.ipynb)
 * Collatz Shortcuts: [Terras and Syracuse Trajectories](docs/Terras_and_Syracuse_maps.md)
+  * Terras Trajectories: [![Terras Trajectory Finder](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GTonyJacobs/Collatz/blob/main/scripts/Terras_trajectory_finder.ipynb)
+  * Syracuse Trajectories: [![Syracuse Trajectory Finder](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GTonyJacobs/Collatz/blob/main/scripts/Syracuse_trajectory_finder.ipynb)
 * Visualizations
   * Collatz Trajectory Length Scatterplot: [![Collatz Trajectory Length Scatterplot](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GTonyJacobs/Collatz/blob/main/scripts/Collatz_trajectory_length_scatterplot.ipynb)
-  * Terras Trajectory Length Scatterplot 
-  * Syracuse Trajectory Length Scatterplot 
+  * Terras Trajectory Length Scatterplot: [![Terras Trajectory Length Scatterplot](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GTonyJacobs/Collatz/blob/main/scripts/Terras_trajectory_length_scatterplot.ipynb)
+  * Syracuse Trajectory Length Scatterplot: [![Syracuse Trajectory Length Scatterplot](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GTonyJacobs/Collatz/blob/main/scripts/Syracuse_trajectory_length_scatterplot.ipynb)
