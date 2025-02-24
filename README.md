@@ -4,7 +4,7 @@ This repository is an educational and research experience, exploring many sides 
 
 * [Introduction](docs/Intro.md)
 
-Note: Links with the Open in Colab badge (![Sample badge](https://colab.research.google.com/assets/colab-badge.svg)) will open as interactive Python Notebooks, while regular blue-text links with open as other documents such as this one. You can always return here by clicking [Return to Main Menu](README.md) at the bottom of any page
+Note: Links with the Open in Colab badge (![Sample badge](https://colab.research.google.com/assets/colab-badge.svg)) will open as interactive Python Notebooks, while regular blue-text links will open as other documents such as this one. You can always return here by clicking [Return to Main Menu](README.md) at the bottom of any page
 
 ### The trajectory of a number:
 * Collatz Trajectories: [![Collatz Trajectory Finder](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GTonyJacobs/Collatz/blob/main/scripts/intro_trajectory_finder.ipynb)
