@@ -21,10 +21,10 @@ File cycle_list_ceiling_20K.csv
   * `odd_steps`; int; also called "length", or "L", the number of odd steps in a cycle
   * `even_steps`; int; also called "weight", or "W", the number of even steps in a cycle
   * `min_numer`; int; the smallest number in the cycle, in absolute value
-  * `natural_denom`; float (long int); the cycle's "natural world", that is, the value 2^W - 3^L
+  * `natural_denom`; float (long int); the cycle's "natural world", that is, the value 2^W - 3^L. These numbers get VERY LARGE, and BigQuery converts them from INT to FLOAT
   * `defect`; float; a measure of the difference between the cycle's even/odd ratio and log(3)/log(2), namely: `defect` = 2^(W/L) - 3
   * `altitude`; float; harmonic mean of all odd numbers in the cycle
   * `neg_share`; float; 100*(proportion of negative seeds falling into the cycle), a percent measure of traffic
   * `pos_share`; float; 100*(proportion of positive seeds falling into the cycle), a percent measure of traffic
   * `is_reduced`; bool; flag for cycles that occur in worlds other than their natural world due to fraction reduction
-  * `reduction_ratio`; float (long int); this is really `natural_denom`/`denom` and equals 1 for natural cycles
+  * `reduction_ratio`; float (long int); this is really `natural_denom`/`denom` and equals 1 for natural cycles. These numbers get VERY LARGE, and BigQuery converts them from INT to FLOAT
