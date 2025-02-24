@@ -1,3 +1,4 @@
+# Shortcuts: The Terras and Syracuse maps
 Our original definition of the **Collatz map**, in the [Introduction](Intro.md), can be formalized this way:
 
 $$
